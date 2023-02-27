@@ -1,0 +1,71 @@
+/* footer ---------------------------------------------------------------*/
+
+@import url('http://weloveiconfonts.com/api/?family=entypo');
+
+a{
+	color: inherit;
+	text-decoration: none;
+	border-bottom:3px solid #7de279;
+	padding-bottom: 1px;
+	cursor: pointer;
+	
+}
+
+a:hover{
+	border-bottom:2px dotted #7de279;
+}
+
+footer{
+	clear: both;
+	height: 5px;
+	background-color: #7de279;
+	padding: 1%;
+  padding-left:0;
+  padding-right:0;
+	position: relative;
+ position:absolute;
+  bottom:0;
+  width:100%;
+  margin:0 auto;
+}
+
+.text-footer{
+	margin: 1% auto;
+	width: 183px;
+	color: white;
+}
+
+	footer ul li a{
+		border: none;
+	}
+
+.social-ul{
+	margin: 0 auto;
+	width: 100%;
+    position: relative;
+	margin-top: -39px;
+}
+
+.social {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin: 0 10px;
+  line-height: 40px;
+  font-family: Entypo;
+  font-size: 20px;
+  text-align: center;
+  color: #555;
+  border-radius: 50%;
+  background: #fff;
+  overflow: hidden;
+  transition: color .3s;
+}
+
+.social:hover {
+  color: #7de279;
+  cursor: pointer;
+
+}
+
+/* end footer ---------------------------------------------------------------*/

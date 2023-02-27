@@ -3,9 +3,9 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './pages/home/home.component';
 import { AboutComponent } from './pages/about/about.component';
 import { ContactComponent } from './pages/contact/contact.component';
-import { LoginComponent } from './pages/login/login.component';
 import { ServicesComponent } from './pages/services/services.component';
-import { SignupComponent } from './pages/signup/signup.component';
+import { FloraComponent } from './pages/flora/flora.component';
+import { FaunaComponent } from './pages/fauna/fauna.component';
 
 const routes: Routes = [
   {
@@ -20,14 +20,16 @@ const routes: Routes = [
   {
     path:'contact',component:ContactComponent
   },
-  {
-    path:'login',component:LoginComponent
-  },
+ 
   {
     path:'services',component:ServicesComponent
   },
+  
   {
-    path:'signup',component:SignupComponent
+    path:'flora',component:FloraComponent
+  },
+  {
+    path:'fauna',component:FaunaComponent
   },
 ];
 
